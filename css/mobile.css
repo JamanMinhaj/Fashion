@@ -1,0 +1,21 @@
+/* @media (min-width: 576px) {
+    .navbar {
+        justify-content: space-between;
+    }
+    .menu_bar {
+        display: none;
+    }
+    .l_b_img {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        display: block;
+    }
+    
+    .r_b_img {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        display: block;
+    }
+} */
