@@ -379,6 +379,9 @@ ul {
     height: 0.07rem;
     background-color: var(--clr-primary);
 }
+.brands_logo img {
+    width: 100%;
+}
 .brands_logo img:last-child {
     display: none;
 }
