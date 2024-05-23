@@ -654,6 +654,38 @@ ul {
     font-family: arial;
     
 }
+.collections_view {
+    overflow: hidden;
+}
+.for_men img{
+    animation-name: animate_left;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+}
+@keyframes animate_left {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.for_women img{
+    animation-name: animate_right;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+}
+@keyframes animate_right {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
 
 /* new features arrivals 2022 design */
 .n_a_title h2 {
